@@ -1,5 +1,3 @@
-require 'pry'
-
 class Dog
   attr_reader :name, :breed, :id
   attr_writer :name, :breed, :id
