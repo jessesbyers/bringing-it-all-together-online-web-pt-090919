@@ -65,7 +65,7 @@ class Dog
       dog = Dog.new(dog_row[1], dog_row[2], dog_row[0])
       binding.pry
     else
-      dog = self.create()
+      dog = self.create(name: name, :breed: breed)
     end
     dog
   end
