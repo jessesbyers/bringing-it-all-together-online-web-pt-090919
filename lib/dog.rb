@@ -73,7 +73,7 @@ class Dog
     sql = "SELECT * FROM dogs WHERE name = ?"
     result = DB[:conn].execute(sql, name)[0]
     Dog.new(result[1], result[2], result[0])
-  end
+    end
   end
 
 end
