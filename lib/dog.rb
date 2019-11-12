@@ -63,6 +63,7 @@ class Dog
     if !dog.empty?
       dog_row = dog[0]
       dog = Dog.new(dog_row[1], dog_row[2], dog_row[0])
+      binding.pry
     else
       dog = self.create()
     end
